@@ -1,0 +1,38 @@
+CPSC453 - Assignment 4
+
+=== 1. EXECUTION: ===
+
+To compile the program, on the terminal enter the following commands:
+
+	qmake -project QT+=widgets
+	qmake
+	make
+
+To run the program, on the terminal enter the following command:
+
+	./a4
+
+=== 2. PROGRAM USE: ===
+
+Program accepts 3 command line parameters:
+
+./a4 <image width> <image height> <output filename>
+
+image width 	= output image pixel width
+image height 	= output image pixel height
+output filename = output filename of image
+
+=== 4. FILES SUBMITTED: ===
+
+README
+algebra.cpp
+algebra.h
+material.cpp
+material.h
+polyroots.cpp
+polyroots.h
+scene.cpp
+scene.h
+shapes.h
+main.cpp
+
